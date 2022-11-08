@@ -1,0 +1,16 @@
+{
+  "name": "konoha",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/web",
+      "packages/server"
+    ]
+  },
+  "scripts": {
+    "web": "yarn workspace @konoha/web start"
+  },
+  "license": "MIT"
+}
